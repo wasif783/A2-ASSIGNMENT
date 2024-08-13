@@ -1,0 +1,263 @@
+@media only screen and (max-width: 576px) {
+    .head{
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    .nav-buttons{
+        display: none;
+    }
+
+    #bars{
+        display: block;
+    }
+
+    .head-con{
+        display: block;
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .head-title{
+        font-size: 33px;
+        width: 285px;
+        height: 129px;
+    
+    }
+    .head-passage{
+        font-size: 18px;
+        width: 274px;
+        height: 96px;
+        margin-top: 30px;
+        /* margin-left: -100px; */
+    }
+
+    .head-buttons{
+        display: flex;
+        gap: 10px;
+
+    }
+    .head-buttons button{
+        width: 150px;
+        /* gap: 10px; */
+    }
+
+    .work{
+        width: 150px;
+    }
+    .vedio{
+        margin-left: -380px;
+    }
+
+   /* main-section */
+
+    .habits-con{
+        width: fit-content;
+    }
+
+    .habit-passage{
+        width: 316px;
+        height: 72px;
+        align-items: center;
+    }
+
+    .habit{
+        width: 318px;
+        height: 38px;
+    }
+    .habit h1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .image-sec{
+        display: block;
+        height: fit-content;
+    }
+
+    .image1-con{
+        /* display: block; */
+        margin: auto;
+    }
+
+    /* run */
+    .run{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+        width: 80%;
+    }
+    .run-left{
+        width: 80%;
+        height: 264px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -20px;
+    }
+
+    .run-title{
+        width: 90%;
+        height: 76px;
+    }
+
+    .run-title h1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .run-p{
+        width: 90%;
+        height: 96px;
+    }
+
+    .run-p p{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .run-btn button{
+        width: 287px;
+        height: 54px;
+    }
+
+    .run-right img{
+        width: 250px;
+        height: 170px;
+        margin-left:15%;
+        
+        
+        padding: 10px;
+    }
+
+    /* challange */
+
+    .scrolling-text{
+        width: 80%;
+        animation: scroll-left 6s linear infinite;
+    }
+
+
+    /* table */
+    .table-sec{
+        display: block;
+    }
+    .table-left{
+        width: 70%;
+        height: 300px;
+        margin:auto;
+        margin-top:30px ;
+    }
+
+    .table-l-title{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 900;
+        width: 300px;
+        height: 19px;
+        margin-bottom: 30px;
+    }
+
+
+    .table-right{
+        width: 70%;
+        height: 400px;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+
+    .right-title{
+        width: 300px;
+        height: 19px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .right-p{
+        width: 346px;
+        height: 72px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .fill-up{
+        width: 99%;
+        height: 168px;
+    }
+
+    input{
+        width: 140px;
+        height: 48px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .four{
+        width: 140px;
+        height: 48px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .five{
+        width: 283px;
+        height: 48px;
+    }
+
+    /* meet */
+    .meet-title{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .meet-p{
+        width: 90%;
+    }
+
+    .meet-images{
+        display: block;
+    }
+
+    .gym-image{
+        width: 95%;
+    }
+
+    .gym-image img{
+        width: 95%;
+    }
+
+    .foot{
+        width: 90%;
+        display: block;
+    }
+    .f-l{
+        width: 90%;
+    }
+       
+    .f-l p{
+        margin-top: -10px;
+    }
+}
+
